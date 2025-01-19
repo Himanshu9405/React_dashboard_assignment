@@ -30,6 +30,8 @@ The project includes the following key features:
 - Modular React components for maintainability.
 - Tailwind CSS for utility-first styling.
 - Production build configuration.
+- Redux Toolkit setup for managing the global state of the sidebar's open/collapse state.
+- Optimized app performance by implementing React Lazy Loading for better load times and efficiency.
 
 ## Setup Instructions
 
