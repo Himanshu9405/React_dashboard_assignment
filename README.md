@@ -1,7 +1,30 @@
 # React Dashboard Project
 
 ## Overview
-This project is a React-based dashboard application designed for efficient, scalable, and modern web development. It integrates tools like Tailwind CSS for styling and includes a production-ready build setup. This project contains the dashbord tab and the setting tab. The dashboard contains the charts for describing the visual representation of the revenue according to the month, Another Chart contains the data of the actual sales and the targeted sales and the Last chart contains the data of the customer segments and the card describing the data.
+This project is a React-based dashboard application designed for efficient, scalable, and modern web development. It integrates tools like Tailwind CSS for styling and includes a production-ready build setup. 
+The project includes the following key features:
+
+ Dashboard Tab:
+ 
+  -Charts for visual representation of monthly revenue along with export functionality in csv format.
+  
+  -A chart comparing actual sales vs. targeted sales along with export functionality in csv format.
+  
+  -A chart showing customer segment data.
+  
+  -Cards summarizing key data points.
+
+ Settings Tab: 
+ 
+  -Basic settings functionality (if applicable—add more if needed).
+
+ Light/Dark Mode: 
+ 
+  -Implemented using Tailwind CSS's dark mode feature, allowing users to toggle between light and dark themes seamlessly.
+
+ React Lazy Loading: 
+ 
+  -Implemented React Lazy loading to optimize the performmance of the React App.
 
 ## Features
 - Modular React components for maintainability.
@@ -17,11 +40,12 @@ This project is a React-based dashboard application designed for efficient, scal
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Himanshu9405/React_dashboard_assignment.git
+
    ```
 2. Navigate to the project directory:
    ```bash
-   cd reactdashboard
+   cd React_dashboard_assignment
    ```
 3. Install dependencies:
    ```bash
@@ -29,7 +53,7 @@ This project is a React-based dashboard application designed for efficient, scal
    # or
    yarn install
    ```
-
+   
 ### Development
 Start the development server:
 ```bash
